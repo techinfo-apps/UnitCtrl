@@ -29,6 +29,10 @@ See and control the Android devices at home — from your Mac, or from each othe
 <img src="screenshots/android-asking-en.jpg" width="260" alt="A Mac asks to control this phone">
 </p>
 
+## Demo video
+
+2 minutes, from opening the Android app to tapping on another screen: https://www.youtube.com/watch?v=ALaN3L4hSbw
+
 ## Download
 
 ### Mac

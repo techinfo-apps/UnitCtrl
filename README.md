@@ -35,10 +35,12 @@ See and control the Android devices at home — from your Mac, or from each othe
 
 ## Download
 
-### Mac
-Download **UnitCtrl-1.0.dmg** from [Releases](https://github.com/zhaoweijia1997/UnitCtrl/releases), open it and drag UnitCtrl to Applications. macOS 14 or later, Apple silicon or Intel.
+Download UnitCtrl only from this page's [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) or the official site https://techinfo-apps.github.io/ — the Releases page shows each file's SHA-256, so you can check a download wasn't changed.
 
-The app isn't notarized by Apple yet: the first time, **right-click UnitCtrl → Open → Open**. It needs [adb](https://developer.android.com/tools/releases/platform-tools) (`brew install --cask android-platform-tools`) for USB setup; it tells you if it's missing.
+### Mac
+Download **UnitCtrl-1.0.dmg** from [Releases](https://github.com/techinfo-apps/UnitCtrl/releases), open it and drag UnitCtrl to Applications. macOS 14 or later, Apple silicon or Intel.
+
+The app isn't notarized by Apple yet, so macOS stops it the first time. On macOS 14: **right-click UnitCtrl → Open → Open**. On macOS 15 and later: open it once, then go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway** next to UnitCtrl. It needs [adb](https://developer.android.com/tools/releases/platform-tools) (`brew install --cask android-platform-tools`) for USB setup; it tells you if it's missing.
 
 ### Android
 UnitCtrl for Android is in a **closed test on Google Play** right now. To join:
@@ -62,3 +64,22 @@ UnitCtrl collects nothing and sends nothing outside your home network. Remote ta
 sublueai@gmail.com — or open an issue here.
 
 UnitCtrl is free to use. The source code isn't published.
+
+---
+
+**Free forever. No ads, ever.** Small, lovely apps and games. Free, no ads, and private — your data stays on your own devices.
+
+Contact: sublueai@gmail.com · Website: https://techinfo-apps.github.io/
+
+<details>
+<summary><img src="donate/coffee-cup.png" width="18" height="18" alt=""> Buy the Developer a Coffee</summary>
+
+Entirely up to you: it works the same either way. Every cup turns into the next update.
+
+<p>
+<img src="donate/wechat.png" height="220" alt="WeChat Pay">
+<img src="donate/alipay.png" height="220" alt="Alipay">
+<img src="donate/paypal.png" height="220" alt="PayPal">
+</p>
+
+</details>

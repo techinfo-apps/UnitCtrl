@@ -35,10 +35,12 @@
 
 ## ダウンロード
 
-### Mac
-[Releases](https://github.com/zhaoweijia1997/UnitCtrl/releases) から **UnitCtrl-1.0.dmg** をダウンロードして開き、UnitCtrl をアプリケーションフォルダにドラッグします。macOS 14 以降、Apple シリコンと Intel に対応。
+UnitCtrl のダウンロードは、このページの [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) か公式サイト https://techinfo-apps.github.io/ からだけにしてください。Releases には各ファイルの SHA-256 が表示されるので、改ざんされていないか確認できます。
 
-このアプリはまだ Apple の公証を受けていません。初回は **UnitCtrl を右クリック → 開く → 開く** を選んでください。USB で設定するには [adb](https://developer.android.com/tools/releases/platform-tools)（`brew install --cask android-platform-tools`）が必要です。入っていなければアプリが知らせます。
+### Mac
+[Releases](https://github.com/techinfo-apps/UnitCtrl/releases) から **UnitCtrl-1.0.dmg** をダウンロードして開き、UnitCtrl をアプリケーションフォルダにドラッグします。macOS 14 以降、Apple シリコンと Intel に対応。
+
+このアプリはまだ Apple の公証を受けていないため、初回は macOS に止められます。macOS 14：**UnitCtrl を右クリック → 開く → 開く**。macOS 15 以降：一度開いてから **システム設定 → プライバシーとセキュリティ** を下にスクロールし、UnitCtrl の横の **このまま開く** をクリックしてください。USB で設定するには [adb](https://developer.android.com/tools/releases/platform-tools)（`brew install --cask android-platform-tools`）が必要です。入っていなければアプリが知らせます。
 
 ### Android
 Android 版はいま **Google Play のクローズドテスト**中です。参加方法：
@@ -62,3 +64,22 @@ UnitCtrl はデータを収集せず、家のネットワークの外には何�
 sublueai@gmail.com、またはここで issue を作成してください。
 
 UnitCtrl は無料で使えます。ソースコードは公開していません。
+
+---
+
+**ずっと無料、ずっと広告なし。** 小さくて美しいアプリと、小さなゲームだけを。無料、広告なし、プライバシーを大切に——データはあなたのデバイスの中だけに。
+
+連絡先：sublueai@gmail.com · 公式サイト：https://techinfo-apps.github.io/
+
+<details>
+<summary><img src="donate/coffee-cup.png" width="18" height="18" alt=""> 作者にコーヒーをおごる</summary>
+
+任意です。おごらなくても同じように使えます。一杯ごとに、次のアップデートになります。
+
+<p>
+<img src="donate/wechat.png" height="220" alt="WeChat Pay">
+<img src="donate/alipay.png" height="220" alt="Alipay">
+<img src="donate/paypal.png" height="220" alt="PayPal">
+</p>
+
+</details>

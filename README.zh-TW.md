@@ -35,10 +35,12 @@
 
 ## 下載
 
-### Mac
-到 [Releases](https://github.com/zhaoweijia1997/UnitCtrl/releases) 下載 **UnitCtrl-1.0.dmg**，打開後把統一控制拖進「應用程式」。需要 macOS 14 以上，Apple 晶片和 Intel 都可以。
+只從這裡的 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 或官網 https://techinfo-apps.github.io/ 下載統一控制。Releases 頁面上每個檔案都標著 SHA-256，可以核對下載的檔案沒被改過。
 
-這個 App 還沒經過 Apple 公證：第一次打開請**右鍵點統一控制 → 打開 → 打開**。插線設定時需要 [adb](https://developer.android.com/tools/releases/platform-tools)（`brew install --cask android-platform-tools`），沒裝的話 App 會提示你。
+### Mac
+到 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 下載 **UnitCtrl-1.0.dmg**，打開後把統一控制拖進「應用程式」。需要 macOS 14 以上，Apple 晶片和 Intel 都可以。
+
+這個 App 還沒經過 Apple 公證，第一次打開時 macOS 會擋一下。macOS 14：**按右鍵點統一控制 → 打開 → 打開**。macOS 15 及以後：先打開一次，再到**系統設定 → 隱私權與安全性**，往下捲，點統一控制旁邊的**仍要打開**。插線設定時需要 [adb](https://developer.android.com/tools/releases/platform-tools)（`brew install --cask android-platform-tools`），沒裝的話 App 會提示你。
 
 ### Android
 Android 版現在在 **Google Play 封閉測試**中。加入方法：
@@ -62,3 +64,22 @@ Android 版現在在 **Google Play 封閉測試**中。加入方法：
 sublueai@gmail.com，或在這裡開 issue。
 
 統一控制免費使用，原始碼不公開。
+
+---
+
+**永遠免費，永遠沒有廣告。** 只做小而美的軟體和小遊戲。免費，無廣告，守護你的隱私——資料只留在你自己的裝置上。
+
+聯絡：sublueai@gmail.com · 官網：https://techinfo-apps.github.io/
+
+<details>
+<summary><img src="donate/coffee-cup.png" width="18" height="18" alt=""> 請作者喝咖啡</summary>
+
+自願的，不請也一樣用。每一杯咖啡，都會變成下一次更新。
+
+<p>
+<img src="donate/wechat.png" height="220" alt="微信支付">
+<img src="donate/alipay.png" height="220" alt="支付寶">
+<img src="donate/paypal.png" height="220" alt="PayPal">
+</p>
+
+</details>

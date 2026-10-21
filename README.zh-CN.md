@@ -35,10 +35,12 @@
 
 ## 下载
 
+每个版本加了什么，见[版本记录](CHANGELOG.zh-CN.md)。
+
 只从这里的 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 或官网 https://techinfo-apps.github.io/ 下载统一控制。Releases 页面上每个文件都标着 SHA-256，可以核对下载的文件没被改过。
 
 ### Mac
-到 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 下载 **UnitCtrl-1.0.dmg**，打开后把统一控制拖进“应用程序”。需要 macOS 14 及以上，Apple 芯片和 Intel 都行。
+到 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 下载 **UnitCtrl-1.1.dmg**，打开后把统一控制拖进“应用程序”。需要 macOS 14 及以上，Apple 芯片和 Intel 都行。
 
 这个 App 还没经过苹果公证，第一次打开时 macOS 会拦一下。macOS 14：**右键点统一控制 → 打开 → 打开**。macOS 15 及以后：先打开一次，再到**系统设置 → 隐私与安全性**，往下翻，点统一控制旁边的**仍要打开**。插线设置时需要 [adb](https://developer.android.com/tools/releases/platform-tools)（`brew install --cask android-platform-tools`），没装的话 App 会提示你。
 

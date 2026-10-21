@@ -35,10 +35,12 @@
 
 ## ダウンロード
 
+各バージョンの変更点は[バージョン履歴](CHANGELOG.ja.md)にあります。
+
 UnitCtrl のダウンロードは、このページの [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) か公式サイト https://techinfo-apps.github.io/ からだけにしてください。Releases には各ファイルの SHA-256 が表示されるので、改ざんされていないか確認できます。
 
 ### Mac
-[Releases](https://github.com/techinfo-apps/UnitCtrl/releases) から **UnitCtrl-1.0.dmg** をダウンロードして開き、UnitCtrl をアプリケーションフォルダにドラッグします。macOS 14 以降、Apple シリコンと Intel に対応。
+[Releases](https://github.com/techinfo-apps/UnitCtrl/releases) から **UnitCtrl-1.1.dmg** をダウンロードして開き、UnitCtrl をアプリケーションフォルダにドラッグします。macOS 14 以降、Apple シリコンと Intel に対応。
 
 このアプリはまだ Apple の公証を受けていないため、初回は macOS に止められます。macOS 14：**UnitCtrl を右クリック → 開く → 開く**。macOS 15 以降：一度開いてから **システム設定 → プライバシーとセキュリティ** を下にスクロールし、UnitCtrl の横の **このまま開く** をクリックしてください。USB で設定するには [adb](https://developer.android.com/tools/releases/platform-tools)（`brew install --cask android-platform-tools`）が必要です。入っていなければアプリが知らせます。
 

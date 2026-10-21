@@ -2,7 +2,7 @@
 
 [English](README.md) · **简体中文** · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md)
 
-用 Mac，或者在设备之间，查看并控制家里的安卓设备。一切都只在家里的网络里：不要账号，不经过云端，**永远没有广告**。
+用 Mac、Windows 电脑，或者在设备之间，查看并控制家里的安卓设备。一切都只在家里的网络里：不要账号，不经过云端，**永远没有广告**。
 
 ![Mac 上的统一控制](screenshots/mac-overview-zh-Hans.png)
 
@@ -41,6 +41,11 @@
 到 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 下载 **UnitCtrl-1.0.dmg**，打开后把统一控制拖进“应用程序”。需要 macOS 14 及以上，Apple 芯片和 Intel 都行。
 
 这个 App 还没经过苹果公证，第一次打开时 macOS 会拦一下。macOS 14：**右键点统一控制 → 打开 → 打开**。macOS 15 及以后：先打开一次，再到**系统设置 → 隐私与安全性**，往下翻，点统一控制旁边的**仍要打开**。插线设置时需要 [adb](https://developer.android.com/tools/releases/platform-tools)（`brew install --cask android-platform-tools`），没装的话 App 会提示你。
+
+### Windows
+到 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 下载 **UnitCtrl-1.0-win-x64.zip**（ARM 电脑选 **UnitCtrl-1.0-win-arm64.zip**），解压到任意文件夹，双击 UnitCtrl.exe 就能用，不用安装。需要 Windows 10（2004 或更新）或 Windows 11。
+
+程序还没有代码签名：如果提示“Windows 已保护你的电脑”，点 **更多信息 → 仍要运行**。第一次打开时会请你同意用户协议。插线设置时同样需要 [adb](https://developer.android.com/tools/releases/platform-tools)。
 
 ### 安卓
 安卓版现在在 **Google Play 封闭测试**中。加入方法：

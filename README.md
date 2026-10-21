@@ -43,6 +43,9 @@ Download **UnitCtrl-1.0.dmg** from [Releases](https://github.com/techinfo-apps/U
 The app isn't notarized by Apple yet, so macOS stops it the first time. On macOS 14: **right-click UnitCtrl → Open → Open**. On macOS 15 and later: open it once, then go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway** next to UnitCtrl. It needs [adb](https://developer.android.com/tools/releases/platform-tools) (`brew install --cask android-platform-tools`) for USB setup; it tells you if it's missing.
 
 ### Windows
+
+![UnitCtrl on Windows](screenshots/windows-overview-en.png)
+
 Download **UnitCtrl-1.0-win-x64.zip** (or **UnitCtrl-1.0-win-arm64.zip** for an ARM PC) from [Releases](https://github.com/techinfo-apps/UnitCtrl/releases), unzip it anywhere and double-click UnitCtrl.exe — nothing to install. Windows 10 (2004 or later) or Windows 11.
 
 The app isn't code-signed yet: if Windows says “Windows protected your PC”, click **More info → Run anyway**. The first time, you're asked to agree to the license agreement. USB setup needs [adb](https://developer.android.com/tools/releases/platform-tools) here too.

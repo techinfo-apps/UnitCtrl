@@ -43,6 +43,9 @@
 這個 App 還沒經過 Apple 公證，第一次打開時 macOS 會擋一下。macOS 14：**按右鍵點統一控制 → 打開 → 打開**。macOS 15 及以後：先打開一次，再到**系統設定 → 隱私權與安全性**，往下捲，點統一控制旁邊的**強制打開**。插線設定時需要 [adb](https://developer.android.com/tools/releases/platform-tools)（`brew install --cask android-platform-tools`），沒裝的話 App 會提示你。
 
 ### Windows
+
+![Windows 上的統一控制](screenshots/windows-overview-zh-Hant.png)
+
 到 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 下載 **UnitCtrl-1.0-win-x64.zip**（ARM 電腦選 **UnitCtrl-1.0-win-arm64.zip**），解壓縮到任意資料夾，按兩下 UnitCtrl.exe 就能用，不用安裝。需要 Windows 10（2004 或更新）或 Windows 11。
 
 程式還沒有程式碼簽章：如果出現「Windows 已保護您的電腦」，請按 **其他資訊 → 仍要執行**。第一次打開時會請你同意使用者協議。插線設定時同樣需要 [adb](https://developer.android.com/tools/releases/platform-tools)。

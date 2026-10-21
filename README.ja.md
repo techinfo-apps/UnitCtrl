@@ -43,6 +43,9 @@ UnitCtrl のダウンロードは、このページの [Releases](https://github
 このアプリはまだ Apple の公証を受けていないため、初回は macOS に止められます。macOS 14：**UnitCtrl を右クリック → 開く → 開く**。macOS 15 以降：一度開いてから **システム設定 → プライバシーとセキュリティ** を下にスクロールし、UnitCtrl の横の **このまま開く** をクリックしてください。USB で設定するには [adb](https://developer.android.com/tools/releases/platform-tools)（`brew install --cask android-platform-tools`）が必要です。入っていなければアプリが知らせます。
 
 ### Windows
+
+![Windows 版 UnitCtrl](screenshots/windows-overview-ja.png)
+
 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) から **UnitCtrl-1.0-win-x64.zip**（ARM の PC は **UnitCtrl-1.0-win-arm64.zip**）をダウンロードし、好きなフォルダーに展開して UnitCtrl.exe をダブルクリックするだけ。インストールは不要です。Windows 10（2004 以降）または Windows 11。
 
 まだコード署名していないため、「Windows によって PC が保護されました」と表示されたら **詳細情報 → 実行** を押してください。初回は利用規約への同意を求められます。USB で設定するには同じく [adb](https://developer.android.com/tools/releases/platform-tools) が必要です。

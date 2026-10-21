@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · **繁體中文** · [日本語](README.ja.md)
 
-用 Mac、Windows 電腦，或在裝置之間，查看並控制家裡的 Android 裝置。一切都只在家裡的網路裡：不需要帳號，不經過雲端，**永遠沒有廣告**。
+用 Mac、Windows 或 Linux 電腦，或在裝置之間，查看並控制家裡的 Android 裝置。一切都只在家裡的網路裡：不需要帳號，不經過雲端，**永遠沒有廣告**。
 
 ![Mac 上的統一控制](screenshots/mac-overview-zh-Hant.png)
 
@@ -51,6 +51,12 @@
 到 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 下載 **UnitCtrl-1.0-win-x64.zip**（ARM 電腦選 **UnitCtrl-1.0-win-arm64.zip**），解壓縮到任意資料夾，按兩下 UnitCtrl.exe 就能用，不用安裝。需要 Windows 10（2004 或更新）或 Windows 11。
 
 程式還沒有程式碼簽章：如果出現「Windows 已保護您的電腦」，請按 **其他資訊 → 仍要執行**。第一次打開時會請你同意使用者協議。插線設定時同樣需要 [adb](https://developer.android.com/tools/releases/platform-tools)。
+
+### Linux
+
+Ubuntu 24.04 起 / Debian 13 起：從 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 下載 **unitctrl_1.0.0_amd64.deb**（ARM 電腦下載 **_arm64.deb**），用 `sudo apt install ./unitctrl_1.0.0_amd64.deb` 安裝。其他發行版：下載 **UnitCtrl-1.0.0-x86_64.AppImage**（ARM 電腦下載 **-aarch64**），`chmod +x` 後直接執行，不用安裝。
+
+在 Wi‑Fi 裡自動尋找裝置需要 Avahi（`avahi-utils`），安裝 .deb 時會一起裝好；沒有它也可以依 IP 位址新增裝置。目前可以透過區域網路看畫面、打字、聽聲音；接線的功能之後再加。
 
 ### Android
 Android 版現在在 **Google Play 封閉測試**中。加入方法：

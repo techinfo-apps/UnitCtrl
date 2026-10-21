@@ -2,7 +2,7 @@
 
 [English](README.md) · **简体中文** · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md)
 
-用 Mac、Windows 电脑，或者在设备之间，查看并控制家里的安卓设备。一切都只在家里的网络里：不要账号，不经过云端，**永远没有广告**。
+用 Mac、Windows 或 Linux 电脑，或者在设备之间，查看并控制家里的安卓设备。一切都只在家里的网络里：不要账号，不经过云端，**永远没有广告**。
 
 ![Mac 上的统一控制](screenshots/mac-overview-zh-Hans.png)
 
@@ -51,6 +51,12 @@
 到 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 下载 **UnitCtrl-1.0-win-x64.zip**（ARM 电脑选 **UnitCtrl-1.0-win-arm64.zip**），解压到任意文件夹，双击 UnitCtrl.exe 就能用，不用安装。需要 Windows 10（2004 或更新）或 Windows 11。
 
 程序还没有代码签名：如果提示“Windows 已保护你的电脑”，点 **更多信息 → 仍要运行**。第一次打开时会请你同意用户协议。插线设置时同样需要 [adb](https://developer.android.com/tools/releases/platform-tools)。
+
+### Linux
+
+Ubuntu 24.04 起 / Debian 13 起：从 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 下载 **unitctrl_1.0.0_amd64.deb**（ARM 电脑下 **_arm64.deb**），用 `sudo apt install ./unitctrl_1.0.0_amd64.deb` 安装。其他发行版：下载 **UnitCtrl-1.0.0-x86_64.AppImage**（ARM 电脑下 **-aarch64**），`chmod +x` 后直接运行，不用安装。
+
+在 Wi‑Fi 里自动找设备要用 Avahi（`avahi-utils`），装 .deb 时会一起装上；没有它也可以按 IP 地址添加设备。现在能走局域网看画面、打字、听声音；插线的功能以后再加。
 
 ### 安卓
 安卓版现在在 **Google Play 封闭测试**中。加入方法：

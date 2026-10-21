@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · **日本語**
 
-家の Android 端末を、Mac や Windows PC から、または端末どうしで見て操作できます。すべて家のネットワークの中だけで動きます。アカウント不要、クラウドなし、**広告は一切ありません**。
+家の Android 端末を、Mac、Windows、Linux の PC から、または端末どうしで見て操作できます。すべて家のネットワークの中だけで動きます。アカウント不要、クラウドなし、**広告は一切ありません**。
 
 ![Mac の UnitCtrl](screenshots/mac-overview-ja.png)
 
@@ -51,6 +51,12 @@ UnitCtrl のダウンロードは、このページの [Releases](https://github
 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) から **UnitCtrl-1.0-win-x64.zip**（ARM の PC は **UnitCtrl-1.0-win-arm64.zip**）をダウンロードし、好きなフォルダーに展開して UnitCtrl.exe をダブルクリックするだけ。インストールは不要です。Windows 10（2004 以降）または Windows 11。
 
 まだコード署名していないため、「Windows によって PC が保護されました」と表示されたら **詳細情報 → 実行** を押してください。初回は利用規約への同意を求められます。USB で設定するには同じく [adb](https://developer.android.com/tools/releases/platform-tools) が必要です。
+
+### Linux
+
+Ubuntu 24.04 以降 / Debian 13 以降：[Releases](https://github.com/techinfo-apps/UnitCtrl/releases) から **unitctrl_1.0.0_amd64.deb**（ARM の PC は **_arm64.deb**）をダウンロードし、`sudo apt install ./unitctrl_1.0.0_amd64.deb` でインストールします。その他のディストリビューション：**UnitCtrl-1.0.0-x86_64.AppImage**（ARM は **-aarch64**）をダウンロードし、`chmod +x` して実行するだけです。インストールは不要です。
+
+Wi‑Fi 上の端末を自動で見つけるには Avahi（`avahi-utils`）を使います。.deb を入れると一緒に入ります。なくても IP アドレスで端末を追加できます。今はローカルネットワーク経由の画面表示、文字入力、音が使えます。USB の機能は今後追加します。
 
 ### Android
 Android 版はいま **Google Play のクローズドテスト**中です。参加方法：

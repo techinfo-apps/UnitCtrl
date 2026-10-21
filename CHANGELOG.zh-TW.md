@@ -2,7 +2,7 @@
 
 [English](CHANGELOG.md) · [简体中文](CHANGELOG.zh-CN.md) · **繁體中文** · [日本語](CHANGELOG.ja.md)
 
-每個版本加了什麼。下載：[Releases](https://github.com/techinfo-apps/UnitCtrl/releases)（Mac、Windows）· Android：Google Play 封閉測試（[加入方法](README.zh-TW.md#android)）。
+每個版本加了什麼。下載：[Releases](https://github.com/techinfo-apps/UnitCtrl/releases)（Mac、Windows、Linux）· Android：Google Play 封閉測試（[加入方法](README.zh-TW.md#android)）。
 
 ## Mac
 
@@ -26,6 +26,11 @@
 - 同一網路的裝置自己出現，也可以按 IP 位址新增。
 - 插線或無線偵錯（adb）時還有：裝置總覽、應用程式、檔案、相簿、截圖錄影、保持亮屏、傳送檔案、手機應用程式單獨成視窗、電腦資料夾。
 - x64 和 ARM64 各一個免安裝 zip；Windows 10（2004 或更新）或 Windows 11；第一次打開時請你同意使用者協議。
+
+## Linux
+
+### 1.0 — 2026-10-21
+- 第一個公開測試版。在 Linux 電腦上透過家裡的網路查看並控制 Android 裝置：滑鼠當手指、任何語言打字、捲動和雙指縮放、返回 / 主畫面 / 最近使用、聲音在電腦上播放（或只在電腦上播放）、畫面三檔、顯示延遲 / 往返時間 / 幀率。Ubuntu / Debian 用 .deb，其他發行版用 AppImage，x64 和 ARM64 都有。
 
 ## Android（Google Play 封閉測試）
 

@@ -2,7 +2,7 @@
 
 **English** · [简体中文](CHANGELOG.zh-CN.md) · [繁體中文](CHANGELOG.zh-TW.md) · [日本語](CHANGELOG.ja.md)
 
-What each version added. Downloads: [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) (Mac, Windows) · Android: Google Play closed test ([how to join](README.md#android)).
+What each version added. Downloads: [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) (Mac, Windows, Linux) · Android: Google Play closed test ([how to join](README.md#android)).
 
 ## Mac
 
@@ -26,6 +26,11 @@ What each version added. Downloads: [Releases](https://github.com/techinfo-apps/
 - Devices on the same network show up by themselves, or add one by its IP address.
 - With a USB cable or wireless debugging (adb): device overview, Apps, Files, Photos, screenshots and screen recording, keep the screen on, send files, phone apps in windows of their own, and Computer Folders.
 - Portable zip for x64 and ARM64; Windows 10 (2004 or later) or Windows 11. A license agreement on first launch.
+
+## Linux
+
+### 1.0 — 2026-10-21
+- First public test. See and control your Android devices from a Linux PC over your home network: the mouse as a finger, typing in any language, scrolling and pinch, Back / Home / Recents, sound on the PC (or only on the PC), three picture levels, delay / round trip / frame rate shown. .deb for Ubuntu / Debian and an AppImage for other distributions, x64 and ARM64.
 
 ## Android (Google Play closed test)
 

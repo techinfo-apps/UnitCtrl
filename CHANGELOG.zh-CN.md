@@ -2,7 +2,7 @@
 
 [English](CHANGELOG.md) · **简体中文** · [繁體中文](CHANGELOG.zh-TW.md) · [日本語](CHANGELOG.ja.md)
 
-每个版本加了什么。下载：[Releases](https://github.com/techinfo-apps/UnitCtrl/releases)（Mac、Windows）· 安卓：Google Play 封闭测试（[加入方法](README.zh-CN.md#安卓)）。
+每个版本加了什么。下载：[Releases](https://github.com/techinfo-apps/UnitCtrl/releases)（Mac、Windows、Linux）· 安卓：Google Play 封闭测试（[加入方法](README.zh-CN.md#安卓)）。
 
 ## Mac
 
@@ -26,6 +26,11 @@
 - 同一网络的设备自己出现，也可以按 IP 地址添加。
 - 插线或无线调试（adb）时还有：设备总览、应用、文件、相册、截屏录屏、保持亮屏、发送文件、手机应用单独成窗口、电脑文件夹。
 - x64 和 ARM64 各一个免安装 zip；Windows 10（2004 或更新）或 Windows 11；第一次打开时请你同意用户协议。
+
+## Linux
+
+### 1.0 — 2026-10-21
+- 第一个公开测试版。在 Linux 电脑上走家里的网络查看并控制安卓设备：鼠标当手指、任何语言打字、滚动和双指缩放、返回 / 主屏幕 / 最近任务、声音在电脑上放（或只在电脑上放）、画面三档、显示延迟 / 往返时间 / 帧率。Ubuntu / Debian 用 .deb，其他发行版用 AppImage，x64 和 ARM64 都有。
 
 ## 安卓（Google Play 封闭测试）
 

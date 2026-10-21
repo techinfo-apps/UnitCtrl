@@ -2,7 +2,7 @@
 
 **English** · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md)
 
-See and control the Android devices at home — from your Mac or Windows PC, or from each other. Everything stays on your home network. No account, no cloud, **no ads, ever**.
+See and control the Android devices at home — from your Mac, Windows or Linux PC, or from each other. Everything stays on your home network. No account, no cloud, **no ads, ever**.
 
 ![UnitCtrl on the Mac](screenshots/mac-overview-en.png)
 
@@ -51,6 +51,12 @@ The app isn't notarized by Apple yet, so macOS stops it the first time. On macOS
 Download **UnitCtrl-1.0-win-x64.zip** (or **UnitCtrl-1.0-win-arm64.zip** for an ARM PC) from [Releases](https://github.com/techinfo-apps/UnitCtrl/releases), unzip it anywhere and double-click UnitCtrl.exe — nothing to install. Windows 10 (2004 or later) or Windows 11.
 
 The app isn't code-signed yet: if Windows says “Windows protected your PC”, click **More info → Run anyway**. The first time, you're asked to agree to the license agreement. USB setup needs [adb](https://developer.android.com/tools/releases/platform-tools) here too.
+
+### Linux
+
+Ubuntu 24.04+ / Debian 13+: download **unitctrl_1.0.0_amd64.deb** (or **_arm64.deb**) from [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) and install it with `sudo apt install ./unitctrl_1.0.0_amd64.deb`. Other distributions: download **UnitCtrl-1.0.0-x86_64.AppImage** (or **-aarch64**), `chmod +x` it and run it — nothing to install.
+
+Finding devices on your Wi‑Fi uses Avahi (`avahi-utils`); the .deb installs it, and without it you can add a device by its IP address. Live screen, typing and sound over your network work today; USB features come later.
 
 ### Android
 UnitCtrl for Android is in a **closed test on Google Play** right now. To join:

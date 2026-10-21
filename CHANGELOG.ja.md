@@ -2,7 +2,7 @@
 
 [English](CHANGELOG.md) · [简体中文](CHANGELOG.zh-CN.md) · [繁體中文](CHANGELOG.zh-TW.md) · **日本語**
 
-各バージョンで追加されたもの。ダウンロード：[Releases](https://github.com/techinfo-apps/UnitCtrl/releases)（Mac、Windows）· Android：Google Play のクローズドテスト（[参加方法](README.ja.md#android)）。
+各バージョンで追加されたもの。ダウンロード：[Releases](https://github.com/techinfo-apps/UnitCtrl/releases)（Mac、Windows、Linux）· Android：Google Play のクローズドテスト（[参加方法](README.ja.md#android)）。
 
 ## Mac
 
@@ -26,6 +26,11 @@
 - 同じネットワークの端末は自動で表示され、IP アドレスで追加することもできます。
 - USB ケーブルまたはワイヤレスデバッグ（adb）では：端末の概要、アプリ、ファイル、写真、スクリーンショットと画面収録、画面をオンのままに、ファイル送信、スマートフォンのアプリを個別のウインドウで、コンピューターのフォルダー。
 - x64 と ARM64 のインストール不要 zip。Windows 10（2004 以降）または Windows 11。初回起動時に利用規約への同意を求めます。
+
+## Linux
+
+### 1.0 — 2026-10-21
+- 最初の公開テスト版。Linux PC から自宅のネットワーク経由で Android 端末を見て操作できます：マウスを指として、どの言語でも文字入力、スクロールとピンチ、戻る / ホーム / 最近のアプリ、PC で音を再生（PC だけでも可）、画質 3 段階、遅延 / 往復時間 / フレームレートの表示。Ubuntu / Debian 向けの .deb と、その他のディストリビューション向けの AppImage（x64、ARM64）。
 
 ## Android（Google Play のクローズドテスト）
 

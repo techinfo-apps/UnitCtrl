@@ -40,7 +40,7 @@ What's new in each version: [Version history](CHANGELOG.md).
 Download UnitCtrl only from this page's [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) or the official site https://techinfo-apps.github.io/ — the Releases page shows each file's SHA-256, so you can check a download wasn't changed.
 
 ### Mac
-Download **UnitCtrl-1.1.dmg** from [Releases](https://github.com/techinfo-apps/UnitCtrl/releases), open it and drag UnitCtrl to Applications. macOS 14 or later, Apple silicon or Intel.
+Download **UnitCtrl-1.2.dmg** from [Releases](https://github.com/techinfo-apps/UnitCtrl/releases), open it and drag UnitCtrl to Applications. macOS 14 or later, Apple silicon or Intel.
 
 The app isn't notarized by Apple yet, so macOS stops it the first time. On macOS 14: **right-click UnitCtrl → Open → Open**. On macOS 15 and later: open it once, then go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway** next to UnitCtrl. It needs [adb](https://developer.android.com/tools/releases/platform-tools) (`brew install --cask android-platform-tools`) for USB setup; it tells you if it's missing.
 

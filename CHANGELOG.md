@@ -6,6 +6,9 @@ What each version added. Downloads: [Releases](https://github.com/techinfo-apps/
 
 ## Mac
 
+### 1.2 — 2026-10-25
+- Clipboard shared with your phones (Settings → Clipboard, on by default): copy on the Mac and paste on the phone; on the phone, send text back with “Send to Computer” in the quick settings or the share menu. What one phone sends reaches your other phones too, through the Mac. Text only; copies from password managers stay on the Mac. Needs the phone app 1.13 or later.
+
 ### 1.1 — 2026-10-21
 - The live screen over your network shows the delay, frames per second and Mbit/s next to “Live” (the delay needs the Android app 1.12 or later).
 - A menu picks how the picture is made: **Automatic**, **Picture First** (the whole screen, sharper) or **Smoothness First** (smaller, skips late pictures). It can also hide the numbers.
@@ -33,6 +36,10 @@ What each version added. Downloads: [Releases](https://github.com/techinfo-apps/
 - First public test. See and control your Android devices from a Linux PC over your home network: the mouse as a finger, typing in any language, scrolling and pinch, Back / Home / Recents, sound on the PC (or only on the PC), three picture levels, delay / round trip / frame rate shown. .deb for Ubuntu / Debian and an AppImage for other distributions, x64 and ARM64.
 
 ## Android (Google Play closed test)
+
+### 1.13 — 2026-10-25
+- Clipboard shared with your computer: “Send to Computer” in the quick settings and the share menu.
+- “Open-source licenses” at the bottom of Settings.
 
 ### 1.12 — 2026-10-21
 - Lower remote-screen delay: when the phone can't keep up, it drops frames instead of falling further behind.

@@ -40,7 +40,7 @@
 只從這裡的 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 或官網 https://techinfo-apps.github.io/ 下載統一控制。Releases 頁面上每個檔案都標著 SHA-256，可以核對下載的檔案沒被改過。
 
 ### Mac
-到 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 下載 **UnitCtrl-1.1.dmg**，打開後把統一控制拖進「應用程式」。需要 macOS 14 以上，Apple 晶片和 Intel 都可以。
+到 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 下載 **UnitCtrl-1.2.dmg**，打開後把統一控制拖進「應用程式」。需要 macOS 14 以上，Apple 晶片和 Intel 都可以。
 
 這個 App 還沒經過 Apple 公證，第一次打開時 macOS 會擋一下。macOS 14：**按右鍵點統一控制 → 打開 → 打開**。macOS 15 及以後：先打開一次，再到**系統設定 → 隱私權與安全性**，往下捲，點統一控制旁邊的**強制打開**。插線設定時需要 [adb](https://developer.android.com/tools/releases/platform-tools)（`brew install --cask android-platform-tools`），沒裝的話 App 會提示你。
 

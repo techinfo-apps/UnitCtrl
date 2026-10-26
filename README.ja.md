@@ -29,10 +29,6 @@
 <img src="screenshots/android-asking-ja.jpg" width="260" alt="Mac がこのスマートフォンの操作を求めています">
 </p>
 
-## デモ動画
-
-2 分間、Android 版を開いてからリモートでタップするまで：https://www.youtube.com/watch?v=ALaN3L4hSbw
-
 ## ダウンロード
 
 各バージョンの変更点は[バージョン履歴](CHANGELOG.ja.md)にあります。

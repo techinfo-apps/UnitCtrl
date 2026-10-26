@@ -29,10 +29,6 @@
 <img src="screenshots/android-asking-zh-CN.jpg" width="260" alt="有 Mac 请求控制这台手机">
 </p>
 
-## 演示视频
-
-2 分钟，从打开安卓版到远程点一下：https://www.youtube.com/watch?v=ALaN3L4hSbw
-
 ## 下载
 
 每个版本加了什么，见[版本记录](CHANGELOG.zh-CN.md)。

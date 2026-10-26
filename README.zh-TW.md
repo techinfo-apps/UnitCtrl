@@ -29,10 +29,6 @@
 <img src="screenshots/android-asking-zh-TW.jpg" width="260" alt="有 Mac 請求控制這支手機">
 </p>
 
-## 示範影片
-
-2 分鐘，從打開 Android 版到遠端點一下：https://www.youtube.com/watch?v=ALaN3L4hSbw
-
 ## 下載
 
 每個版本加了什麼，見[版本紀錄](CHANGELOG.zh-TW.md)。

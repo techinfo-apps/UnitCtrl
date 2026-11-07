@@ -6,6 +6,13 @@ What each version added. Downloads: [Releases](https://github.com/techinfo-apps/
 
 ## Mac
 
+### 1.3 — 2026-11-07
+- **Desktop Mode** (what used to be called “Phone Apps”): put any app from your phone in a Mac window of its own and use it like a Mac app — resize it, line it up beside your other windows, copy and paste with the Mac, type Chinese or Japanese with your own input method. The phone's own screen stays as it is.
+- Several apps at once, each in its own window. A window you can't see — covered by another window, or minimized — costs the phone nothing: it stops encoding for that window until you look at it again.
+- One window per app: asking for an app that already has a window brings that window forward, rather than taking the app off it.
+- A window that loses its connection opens the app again by itself, instead of asking you to close it and start over.
+- Needs Android 10 or later, over a cable or wireless debugging. Nothing is installed on the phone.
+
 ### 1.2 — 2026-10-25
 - Clipboard shared with your phones (Settings → Clipboard, on by default): copy on the Mac and paste on the phone; on the phone, send text back with “Send to Computer” in the quick settings or the share menu. What one phone sends reaches your other phones too, through the Mac. Text only; copies from password managers stay on the Mac. Needs the phone app 1.13 or later.
 

@@ -11,6 +11,7 @@
 **Mac で**
 - 家の Android スマートフォンやタブレットをひとつのウインドウで。USB でも Wi‑Fi でも
 - 画面をリアルタイムで表示。マウスでクリック・ドラッグ・スクロール、Mac のキーボードで入力（どの言語でも）、音声も聞けます
+- **デスクトップモード**：スマホのアプリを一つずつ Mac のウインドウに。同時に何個でも、他のウインドウと並べて使えます。スマホの画面はそのまま
 - アプリ（起動・停止・アンインストール）、ファイル、スクリーンショットと画面収録、写真は端末のギャラリーへ直接転送
 - 画面のオンやアプリの使用履歴、ストレージや状態がひと目で分かり、メニューバーで通知
 
@@ -36,7 +37,7 @@
 UnitCtrl のダウンロードは、このページの [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) か公式サイト https://techinfo-apps.github.io/ からだけにしてください。Releases には各ファイルの SHA-256 が表示されるので、改ざんされていないか確認できます。
 
 ### Mac
-[Releases](https://github.com/techinfo-apps/UnitCtrl/releases) から **UnitCtrl-1.2.dmg** をダウンロードして開き、UnitCtrl をアプリケーションフォルダにドラッグします。macOS 14 以降、Apple シリコンと Intel に対応。
+[Releases](https://github.com/techinfo-apps/UnitCtrl/releases) から **UnitCtrl-1.3.dmg** をダウンロードして開き、UnitCtrl をアプリケーションフォルダにドラッグします。macOS 14 以降、Apple シリコンと Intel に対応。
 
 このアプリはまだ Apple の公証を受けていないため、初回は macOS に止められます。macOS 14：**UnitCtrl を右クリック → 開く → 開く**。macOS 15 以降：一度開いてから **システム設定 → プライバシーとセキュリティ** を下にスクロールし、UnitCtrl の横の **このまま開く** をクリックしてください。USB で設定するには [adb](https://developer.android.com/tools/releases/platform-tools)（`brew install --cask android-platform-tools`）が必要です。入っていなければアプリが知らせます。
 

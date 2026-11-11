@@ -12,6 +12,7 @@ See and control the Android devices at home — from your Mac, Windows or Linux 
 - Every Android phone and tablet at home in one window, over USB or Wi‑Fi
 - See the screen live; click, drag and scroll with the mouse; type with your Mac keyboard in any language; hear the sound
 - **Desktop Mode**: each phone app in a Mac window of its own, several at once, beside your other windows. The phone's own screen stays as it is
+- **Spaces**: share one Wi‑Fi with other people and keep your devices to yourselves — a name and a password, and only your own devices show up
 - Apps (open, stop, uninstall), files, screenshots and screen recording, photos sent straight to the device's gallery
 - Screen-on and app history, storage and health at a glance, notifications from the menu bar
 
@@ -37,7 +38,7 @@ What's new in each version: [Version history](CHANGELOG.md).
 Download UnitCtrl only from this page's [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) or the official site https://techinfo-apps.github.io/ — the Releases page shows each file's SHA-256, so you can check a download wasn't changed.
 
 ### Mac
-Download **UnitCtrl-1.3.dmg** from [Releases](https://github.com/techinfo-apps/UnitCtrl/releases), open it and drag UnitCtrl to Applications. macOS 14 or later, Apple silicon or Intel.
+Download **UnitCtrl-1.4.dmg** from [Releases](https://github.com/techinfo-apps/UnitCtrl/releases), open it and drag UnitCtrl to Applications. macOS 14 or later, Apple silicon or Intel.
 
 The app isn't notarized by Apple yet, so macOS stops it the first time. On macOS 14: **right-click UnitCtrl → Open → Open**. On macOS 15 and later: open it once, then go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway** next to UnitCtrl. It needs [adb](https://developer.android.com/tools/releases/platform-tools) (`brew install --cask android-platform-tools`) for USB setup; it tells you if it's missing.
 

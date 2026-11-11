@@ -12,6 +12,7 @@
 - 家裡所有 Android 手機、平板都在同一個視窗裡，插線或走 Wi‑Fi 都行
 - 即時看畫面；用滑鼠點、拖、捲動；用 Mac 鍵盤打字（任何語言都行）；聽它的聲音
 - **電腦模式**：手機上的 App 各開一個 Mac 視窗，可以同時開好幾個，和你別的視窗並排用。手機自己的螢幕保持原樣
+- **空間**：和別人共用一個 Wi‑Fi 也不怕：一個名字加一個密碼，只看得到自己的裝置
 - App（開啟、停止、解除安裝）、檔案、截圖和螢幕錄影，照片直接傳進裝置相簿
 - 亮螢幕和 App 使用紀錄、儲存空間和健康狀況一目了然，選單列裡有通知
 
@@ -37,7 +38,7 @@
 只從這裡的 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 或官網 https://techinfo-apps.github.io/ 下載統一控制。Releases 頁面上每個檔案都標著 SHA-256，可以核對下載的檔案沒被改過。
 
 ### Mac
-到 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 下載 **UnitCtrl-1.3.dmg**，打開後把統一控制拖進「應用程式」。需要 macOS 14 以上，Apple 晶片和 Intel 都可以。
+到 [Releases](https://github.com/techinfo-apps/UnitCtrl/releases) 下載 **UnitCtrl-1.4.dmg**，打開後把統一控制拖進「應用程式」。需要 macOS 14 以上，Apple 晶片和 Intel 都可以。
 
 這個 App 還沒經過 Apple 公證，第一次打開時 macOS 會擋一下。macOS 14：**按右鍵點統一控制 → 打開 → 打開**。macOS 15 及以後：先打開一次，再到**系統設定 → 隱私權與安全性**，往下捲，點統一控制旁邊的**強制打開**。插線設定時需要 [adb](https://developer.android.com/tools/releases/platform-tools)（`brew install --cask android-platform-tools`），沒裝的話 App 會提示你。
 

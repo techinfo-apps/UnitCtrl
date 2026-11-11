@@ -6,6 +6,11 @@ What each version added. Downloads: [Releases](https://github.com/techinfo-apps/
 
 ## Mac
 
+### 1.4 — 2026-11-11
+- **Spaces** (Settings → Spaces): share one Wi‑Fi — an office, a dorm, a shared flat — and keep your devices to yourselves. Join or create a space with a name and a password, or a random pairing code.
+- Phones in the same space connect without anyone tapping “Allow”; devices in other spaces aren't listed and can't get in.
+- The password never goes over the network: the Mac and the phone each prove they know it. Phones need UnitCtrl 1.15 or later; older phones work as before.
+
 ### 1.3 — 2026-11-07
 - **Desktop Mode** (what used to be called “Phone Apps”): put any app from your phone in a Mac window of its own and use it like a Mac app — resize it, line it up beside your other windows, copy and paste with the Mac, type Chinese or Japanese with your own input method. The phone's own screen stays as it is.
 - Several apps at once, each in its own window. A window you can't see — covered by another window, or minimized — costs the phone nothing: it stops encoding for that window until you look at it again.
@@ -43,6 +48,14 @@ What each version added. Downloads: [Releases](https://github.com/techinfo-apps/
 - First public test. See and control your Android devices from a Linux PC over your home network: the mouse as a finger, typing in any language, scrolling and pinch, Back / Home / Recents, sound on the PC (or only on the PC), three picture levels, delay / round trip / frame rate shown. .deb for Ubuntu / Debian and an AppImage for other distributions, x64 and ARM64.
 
 ## Android (Google Play closed test)
+
+### 1.15 — 2026-11-11
+- **Spaces**: join or create a space with a name and a password, or a random pairing code. Devices in the same space see each other and connect without tapping “Allow”; devices in other spaces aren't listed and can't get in.
+- “Only devices in my spaces”: turn away everyone else without being asked.
+- The old “let every device on the network in” switch is gone: spaces replace it.
+
+### 1.14 — 2026-10-30
+- Shared videos for UnitPlayer on your other devices; a link to rate UnitCtrl and to write to us at the bottom of Settings.
 
 ### 1.13 — 2026-10-25
 - Clipboard shared with your computer: “Send to Computer” in the quick settings and the share menu.

@@ -6,6 +6,11 @@ What each version added. Downloads: [Releases](https://github.com/techinfo-apps/
 
 ## Mac
 
+### 1.5 — 2026-11-26
+- **Send to Photos, pick by dragging**: drag across the grid to choose a run of photos, drag from a chosen one to take them out; the grid scrolls by itself at its edges.
+- **“Choose Files…” shows a folder as thumbnails**: pick the pictures and videos you want from it the same way, or Choose All (⌘A). Only that folder, not its subfolders.
+- While a phone waits for you to allow this Mac, the Mac says where to tap: in the phone's notifications, or on UnitCtrl's first page.
+
 ### 1.4 — 2026-11-11
 - **Spaces** (Settings → Spaces): share one Wi‑Fi — an office, a dorm, a shared flat — and keep your devices to yourselves. Join or create a space with a name and a password, or a random pairing code.
 - Phones in the same space connect without anyone tapping “Allow”; devices in other spaces aren't listed and can't get in.
@@ -48,6 +53,11 @@ What each version added. Downloads: [Releases](https://github.com/techinfo-apps/
 - First public test. See and control your Android devices from a Linux PC over your home network: the mouse as a finger, typing in any language, scrolling and pinch, Back / Home / Recents, sound on the PC (or only on the PC), three picture levels, delay / round trip / frame rate shown. .deb for Ubuntu / Debian and an AppImage for other distributions, x64 and ARM64.
 
 ## Android (Google Play closed test)
+
+### 1.16 — 2026-11-26
+- The “Allow” request stays in your notifications until you answer, instead of disappearing after a few seconds; it goes away by itself after a minute.
+- The device asking tells you where to look: the other phone's notifications, or UnitCtrl's first page.
+- Android 15 and later: the app's notification explains the red “sharing” mark — nothing is sent while nobody is watching.
 
 ### 1.15 — 2026-11-11
 - **Spaces**: join or create a space with a name and a password, or a random pairing code. Devices in the same space see each other and connect without tapping “Allow”; devices in other spaces aren't listed and can't get in.
